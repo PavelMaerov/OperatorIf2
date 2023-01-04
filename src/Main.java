@@ -42,12 +42,13 @@ public class Main {
         }
 
         System.out.println("Задача 5");
-        byte monthNumber = 7;
+        byte monthNumber = 11;
         switch (monthNumber) {
             case 1: case 2:  case 12: System.out.println("Месяцу "+ monthNumber  +" соответстует сезон Зима");  break;
             case 3: case 4:  case 5:  System.out.println("Месяцу "+ monthNumber  +" соответстует сезон Весна"); break;
             case 6: case 7:  case 8:  System.out.println("Месяцу "+ monthNumber  +" соответстует сезон Лето");  break;
-            case 9: case 10: case 11: System.out.println("Месяцу "+ monthNumber  +" соответстует сезон Осень");
+            case 9: case 10: case 11: System.out.println("Месяцу "+ monthNumber  +" соответстует сезон Осень"); break;
+            default: System.out.println("Неправильный номер месяца "+ monthNumber);
         }
     }
 }
